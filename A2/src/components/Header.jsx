@@ -19,7 +19,7 @@ export default function Header({ onContact }) {
   return (
     <header className="nav glass">
       <a href="#hero" className="brand" aria-label="Home">
-        <span>MyWeb</span>
+        <span>Abdulmuhaymin</span>
       </a>
       <nav className={`links ${open ? "open" : ""}`} aria-label="Primary">
         <a href="#about">About</a>

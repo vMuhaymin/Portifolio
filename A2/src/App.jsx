@@ -9,7 +9,7 @@ import Social from "./components/Social";
 import GitHubIcon from "./components/icons/GitHubIcon";
 import ServicesCarousel from "./components/ServicesCarousel";
 import ProjectsGrid from "./components/ProjectsGrid";
-import ContactForm from "./components/ContactForm"; // 👈 add this
+import ContactForm from "./components/ContactForm"; 
 
 import { services as servicesData } from "./data/services";
 import { projects as projectsData } from "./data/projects";
@@ -61,7 +61,7 @@ export default function App() {
 
             <div className="scroll-indicator" onClick={() => scrollToId("about")}>
               <span />
-              <small>Scroll</small>
+              <small>⬇️</small>
             </div>
           </div>
         </div>

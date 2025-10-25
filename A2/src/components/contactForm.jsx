@@ -73,9 +73,9 @@ export default function ContactForm() {
         {errors.message && <small id="err-message" className="error">{errors.message}</small>}
       </div>
 
-      <button type="submit" className="btn primary big">Submit</button>
+      <button type="submit" className="btn primary  ">Send </button>
 
-      {submitted && <p className="success-msg">✅ Message sent successfully (demo)</p>}
+      {submitted && <p className="success-msg"> Message sent successfully ✅ </p>}
     </form>
   );
 }
